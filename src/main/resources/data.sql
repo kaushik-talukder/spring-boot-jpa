@@ -1,0 +1,11 @@
+insert into LAPTOPS values(401,'S11-01');
+insert into LAPTOPS values(402,'S11-02');
+insert into EMPLOYEES values(101, 'Kaushik Talukder',401);
+insert into EMPLOYEES values(102, 'Anik Talukder','402');
+insert into ROLES values(301,'Developer');
+insert into ROLES values(302,'Team Leader');
+insert into ROLES values(303,'Project Manager');
+insert into EMPLOYEES_ROLES values(101, 302);
+insert into EMPLOYEES_ROLES values(101, 303);
+insert into EMPLOYEES_ROLES values(102, 301);
+insert into EMPLOYEES_ROLES values(102, 302);
